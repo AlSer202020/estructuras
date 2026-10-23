@@ -2,7 +2,7 @@
     for clave, valor in kwargs.items():
         print(f"{clave.capitalize()}: {valor}")
 
-crear_perfil_usuario(nombre="Luis", edad=35, ciudad="Madrid", pais="Espaá")
+crear_perfil_usuario(nombre="Luis", edad=35, ciudad="Madrid", pais="España")
 """
 
 # Alternativa
@@ -12,5 +12,5 @@ def crear_perfil_usuario(nombre, apellido, **kwargs):
 
     return perfil
 
-usuario = crear_perfil_usuario("Luis", "Vega", ciudad="Madrid", pais="Espaá")
+usuario = crear_perfil_usuario("Luis", "Vega", ciudad="Madrid", pais="España")
 print(usuario)
